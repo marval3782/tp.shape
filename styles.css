@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+a{
+    color: black;
+    padding-left: 40px;
+}
+.btntalk1{
+    border: 2px solid; 
+    border-color: black;
+    padding: 10px;
+   
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btntalk1:hover{
+    color: white;
+    background-color: black;
+}
+.botones{
+
+    display: flex;
+    justify-content:start;
+}
+.btnes{
+    margin-top: 15px;
+    width: 130px;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+}
+
+
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    display: flex;
+    position: relative;
+    height: 80vh;
+}
+h4{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 18.5px;
+    text-transform: uppercase;
+}
+span{
+    text-decoration: line-through ;
+}
+h3{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 16px;
+    color: white;
+    bottom: 30px;
+    text-transform: uppercase;
+}
+.sol{
+    color: orangered;
+    padding-left: 38px;
+    padding-right: 38px;
+    
+}
+.sol2{
+    position: absolute;
+    top: 27px;
+    left: 100px;
+    color: orangered;
+    font-size: 25px;
+
+}
+.soleado{
+    padding-left: 12px;
+    padding-right: 2px;
+    color: orangered;
+}
+.sol4{
+    margin: right left 2px; 
+    color: orangered;
+}
+.diagonal {
+    position: absolute;
+    top: 520px ;
+    width: 84.5rem;
+    height: 80px;
+    transform: skewY(-5deg) ;
+    background-color: black;
+}
+.asterisco{
+    position: absolute;
+    color: orangered;
+    font-size: 400px;
+    top: -20px;
+    z-index: -1;
+    right: 130px;
+}
